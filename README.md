@@ -63,6 +63,7 @@ OnTheSpot is an app for lifelong learners who want to join communities of likemi
 * [Required User Feature: User can click a button that redirects them to the Signup screen]
 * [Required User Feature: User can click a 'X' that redirects them to the Home Screen]
 * [Required User Feature: User can click a 'Continue' button that takes them to the Home Feed Screen]
+
 [**Custom Room Screen**] - Sai Mannava 
 * [Required User Feature: Based on the room the user clicks, call an API to display feed]
 * [Required User Feature: Having a custom tailored questions for each room]
