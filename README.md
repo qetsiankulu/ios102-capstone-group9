@@ -32,11 +32,16 @@ OnTheSpot is an app for lifelong learners who want to join communities of likemi
 ### 1. User Stories (Required and Optional)
 
 **Required Must-have Stories**
-* User can view the different channels on the main feed after sign up or login
-* option to create groups
-* options for leader of group to set questions for the week
-* options for participants in groups to anwser question of day ( they get 2 minutes to anwser once they open the app and only after they anwser can they see the feed of other responses for that room)
-* ability to give feedback (comment section) on responses
+- [x] User can sign up using GitHub
+- [x] User can sign up using email/password
+- [ ] User can login using GitHub
+- [x] User can login using email/password
+      
+- [ ] User can view the different channels on the main feed after sign up or login
+- [ ] option to create groups
+- [ ] options for leader of group to set questions for the week
+- [ ] options for participants in groups to anwser question of day ( they get 2 minutes to anwser once they open the app and only after they anwser can they see the feed of other responses for that room)
+- [ ] ability to give feedback (comment section) on responses
 
 
 **Optional Nice-to-have Stories**
