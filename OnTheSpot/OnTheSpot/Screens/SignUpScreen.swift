@@ -15,7 +15,9 @@ struct SignUpScreen: View {
     @State private var password: String  = ""
     
     var body: some View {
+      
         VStack {
+
             Text("Sign up")
                 .font(.largeTitle)
                 .bold()
@@ -42,9 +44,9 @@ struct SignUpScreen: View {
             } else {
                 DisabledContinueButton()
             }
-            
-
+        
         }
+        
     }
 }
 

@@ -9,18 +9,16 @@ import SwiftUI
 
 struct NavigationBar: View {
     
-    let backButtonAction: () -> Void
-    let rightButtonAction: () -> Void
-    let rightButtonText: String
+    let backButtonView: SignInScreen
     
     var body: some View {
         NavigationView {
             VStack {
-            
+                // Your content here
             }
             .navigationBarItems(
-                leading: CustomBackButton(), // Custom back button
-                trailing: CustomRightButton() // Custom right button
+                leading: CustomBackButton(),
+                trailing: CustomRightButton()
             )
         }
     }
@@ -30,26 +28,24 @@ struct CustomBackButton: View {
     @Environment(\.presentationMode) var presentationMode
 
     var body: some View {
-        Button(action: {
-            self.presentationMode.wrappedValue.dismiss()
-            self.backButtonAction
-        }) {
+        NavigationLink(destination: Text("Previous Screen")) {
             Image(systemName: "xmark")
         }
     }
 }
 
 struct CustomRightButton: View {
+    
+    let rightNavLinkText: String = "Done"
+    
     var body: some View {
-        Button(action: {
-            self.rightButtonAction()
-        }) {
-            Text(rightButtonText)
+        NavigationLink(destination: Text("Next Screen")) {
+            Text(rightNavLinkText)
         }
     }
-
 }
 
 #Preview {
-    NavigationBar(backButtonAction: {}, rightButtonAction: {}, rightButtonText: "Done")
+    NavigationBar(backButtonView: SignInScreen())
 }
+
