@@ -36,6 +36,7 @@ OnTheSpot is an app for lifelong learners who want to join communities of likemi
 - [x] User can sign up using email/password
 - [ ] User can login using GitHub
 - [x] User can login using email/password
+- [ ] User can sign out 
       
 - [ ] User can view the different channels on the main feed after sign up or login
 - [ ] option to create groups
@@ -119,19 +120,16 @@ OnTheSpot is an app for lifelong learners who want to join communities of likemi
 [**Login Screen**] - Qetsia 
 ![Screenshot 2024-04-11 at 9.49.41 AM](https://hackmd.io/_uploads/HkPTEqBgC.png)
 
-
-
 ![Screenshot 2024-04-12 at 1.31.58 PM](https://hackmd.io/_uploads/rkGUcMvgC.png)
 
 (see bigger photo):
 [link to photo](https://drive.google.com/file/d/1XB08leobC5-mNciZEe_IRtdgFabKcy_A/view)
 
 
+### Sprint 1 GIFs
+- User can sign up using GitHub and using email/password. SignIn, SignUp, and Login Screens have been built out. Still having troubling with the Github third-party authentication working consistently.
+  !(https://imgur.com/a/0hpi2Oc.gif)
 
-
-### [BONUS] Digital Wireframes & Mockups
-
-### [BONUS] Interactive Prototype
 
 ## Schema 
 
