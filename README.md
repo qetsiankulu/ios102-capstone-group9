@@ -128,8 +128,7 @@ OnTheSpot is an app for lifelong learners who want to join communities of likemi
 
 ### Sprint 1 GIFs
 - User can sign up using GitHub and using email/password. SignIn, SignUp, and Login Screens have been built out. Still having troubling with the Github third-party authentication working consistently.
-  !(https://imgur.com/a/0hpi2Oc.gif)
-
+<img style="max-width:300px;" src="imgur.com/a/0hpi2Oc.gif">
 
 ## Schema 
 
