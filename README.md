@@ -141,6 +141,8 @@ OnTheSpot is an app for lifelong learners who want to join communities of likemi
       <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/03a4852bd0a54365aeec532b84cd3ea3-with-play.gif">
     </a>
   </div>
+- UI room feed layout [Darian]
+<img style="max-width:300px;" src="Screenshot 2024-04-19 at 7.35.05 PM.png">
 
 ## Schema 
 
