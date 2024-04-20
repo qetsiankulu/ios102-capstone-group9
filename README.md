@@ -38,11 +38,9 @@ OnTheSpot is an app for lifelong learners who want to join communities of likemi
 - [x] User can login using email/password
 - [ ] User can sign out 
       
-- [ ] User can view the different channels on the main feed after sign up or login
-- [ ] option to create groups
-- [ ] options for leader of group to set questions for the week
-- [ ] options for participants in groups to anwser question of day ( they get 2 minutes to anwser once they open the app and only after they anwser can they see the feed of other responses for that room)
-- [ ] ability to give feedback (comment section) on responses
+- [ ] users have option to subscribe/ unsubscribe to different rooms
+- [ ] users can only see rooms they are subscribed to in their feed
+- [ ] feed shows fun facts/ trivia for that subject 
 
 
 **Optional Nice-to-have Stories**
@@ -75,6 +73,16 @@ OnTheSpot is an app for lifelong learners who want to join communities of likemi
 * [Required User Feature: Having a custom tailored questions for each room]
 * [Optional User Feature: User can interact with other people in the screen]
 * [Optional User Feature: The Room and the UI should be connected]
+
+
+[**Add subscription  Screen**] - Darian Lee 
+* [Required User Feature: user can see all possible rooms and search for a room]
+* [Required User Feature: rooms that they are subscribed to are selected]
+* [Required User Feature: user can unselect and select rooms to change subscription]
+
+[**main feed  Screen**] - Darian Lee 
+* [Required User Feature: user can see the rooms they are subscribed to]
+* [Required User Feature: clicking a room leads to "custom room screen]
 
 
 ### 3. Navigation
