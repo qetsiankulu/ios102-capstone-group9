@@ -156,6 +156,7 @@ OnTheSpot is an app for lifelong learners who want to join communities of likemi
 | password | String | user's password for login authentication      |
 | ...      | ...    | ...                          
 
+in progress 
 
 ### Networking
 
