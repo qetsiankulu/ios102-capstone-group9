@@ -142,7 +142,7 @@ OnTheSpot is an app for lifelong learners who want to join communities of likemi
     </a>
   </div>
 - UI room feed layout [Darian]
-<img style="max-width:300px;" src="Screenshot 2024-04-19 at 7.35.05 PM.png">
+<img style="max-width:300px;" src="/rooms/Screenshot 2024-04-19 at 7.35.05 PM.png">
 
 ## Schema 
 
