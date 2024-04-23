@@ -45,6 +45,10 @@ class AuthManager {
         do {
             try Auth.auth().signOut()
             user = nil  // Set user to nil after sign out
+            
+            print ("The user has been signed out")
+            
+            
         } catch {
             print(error)
         }
@@ -68,7 +72,7 @@ class AuthManager {
                        if let user = authResult?.user {
                            self.user = user
                            
-                           print("User successfully created in Firebase")
+                           
                        }
                    }
                }

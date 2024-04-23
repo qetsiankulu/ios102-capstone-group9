@@ -9,7 +9,7 @@ import SwiftUI
 
 struct NavigationBar: View {
     
-    let backButtonView: SignInScreen
+    let backButtonDestination : SignInScreen
     
     var body: some View {
         NavigationView {
@@ -26,6 +26,7 @@ struct NavigationBar: View {
 
 struct CustomBackButton: View {
     @Environment(\.presentationMode) var presentationMode
+    
 
     var body: some View {
         NavigationLink(destination: Text("Previous Screen")) {
@@ -46,6 +47,6 @@ struct CustomRightButton: View {
 }
 
 #Preview {
-    NavigationBar(backButtonView: SignInScreen())
+    NavigationBar(backButtonDestination: SignInScreen())
 }
 

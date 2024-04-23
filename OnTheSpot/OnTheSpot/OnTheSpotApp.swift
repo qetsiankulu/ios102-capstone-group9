@@ -22,8 +22,16 @@ struct OnTheSpotApp: App {
     
     var body: some Scene {
         WindowGroup {
-            SignInScreen()
-                .environment(authManager)   // <-- Pass the authManager into the environment 
+            if authManager.user != nil { // <-- Check if you have a non-nil user (means there is a logged in user)
+                // Logged in user, go to UserLoggedInScreen
+                UserLoggedInScreen()
+                    .environment(authManager)
+            } else {
+                
+                // No logged in user, go to SignInScreen
+                SignInScreen()
+                    .environment(authManager)   // <-- Pass the authManager into the environment
+            }
         }
     }
 }
