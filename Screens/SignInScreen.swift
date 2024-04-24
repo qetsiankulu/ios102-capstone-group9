@@ -9,13 +9,12 @@ import SwiftUI
 
 struct SignInScreen: View {
     
-    @Environment(AuthManager.self) var authManager  // Access the authManager from the environment
-    @State private var showingLoginScreen = false   // State variable to control modal presentation
+    @Environment(AuthManager.self) var authManager  // <-- Access the authManager from the environment
     
     
     var body: some View {
-        
         NavigationStack {
+            
             VStack(spacing: 5) {
                 EmailButton()
                 GithubButton(action: authManager.signInWithGithub)
@@ -24,25 +23,15 @@ struct SignInScreen: View {
             
             HStack {
                 Text("Already on OnTheSpot?")
-                
-                // Button that opens the LoginScreen modally
-                Button(action: {
-                    showingLoginScreen = true // Show the LoginScreen as a modal
-                }) {
+
+                NavigationLink(destination: LoginScreen()){
                     Text("Login")
+                        
                 }
             }
             .font(.system(size: 14))
         }
-        // Present the LoginScreen modally when showingLoginScreen is true
-        .sheet(isPresented: $showingLoginScreen) {
-            LoginScreen()
-        }
-        // Hide the back button and text in the navigation bar
-        .navigationBarBackButtonHidden(true)
-
     }
-    
 }
 
 #Preview {

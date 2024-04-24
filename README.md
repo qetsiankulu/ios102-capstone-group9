@@ -32,11 +32,17 @@ OnTheSpot is an app for lifelong learners who want to join communities of likemi
 ### 1. User Stories (Required and Optional)
 
 **Required Must-have Stories**
-* User can view the different channels on the main feed after sign up or login
-* option to create groups
-* options for leader of group to set questions for the week
-* options for participants in groups to anwser question of day ( they get 2 minutes to anwser once they open the app and only after they anwser can they see the feed of other responses for that room)
-* ability to give feedback (comment section) on responses
+- [x] User can sign up using GitHub
+- [x] User can sign up using email/password
+- [ ] User can login using GitHub
+- [x] User can login using email/password
+- [ ] User can sign out 
+      
+- [ ] User can view the different channels on the main feed after sign up or login
+- [ ] option to create groups
+- [ ] options for leader of group to set questions for the week
+- [ ] options for participants in groups to anwser question of day ( they get 2 minutes to anwser once they open the app and only after they anwser can they see the feed of other responses for that room)
+- [ ] ability to give feedback (comment section) on responses
 
 
 **Optional Nice-to-have Stories**
@@ -64,6 +70,11 @@ OnTheSpot is an app for lifelong learners who want to join communities of likemi
 * [Required User Feature: User can click a 'X' that redirects them to the Home Screen]
 * [Required User Feature: User can click a 'Continue' button that takes them to the Home Feed Screen]
 
+[**Custom Room Screen**] - Sai Mannava 
+* [Required User Feature: Based on the room the user clicks, call an API to display feed]
+* [Required User Feature: Having a custom tailored questions for each room]
+* [Optional User Feature: User can interact with other people in the screen]
+* [Optional User Feature: The Room and the UI should be connected]
 
 
 ### 3. Navigation
@@ -109,19 +120,19 @@ OnTheSpot is an app for lifelong learners who want to join communities of likemi
 [**Login Screen**] - Qetsia 
 ![Screenshot 2024-04-11 at 9.49.41 AM](https://hackmd.io/_uploads/HkPTEqBgC.png)
 
-
-
 ![Screenshot 2024-04-12 at 1.31.58 PM](https://hackmd.io/_uploads/rkGUcMvgC.png)
 
 (see bigger photo):
 [link to photo](https://drive.google.com/file/d/1XB08leobC5-mNciZEe_IRtdgFabKcy_A/view)
 
 
-
-
-### [BONUS] Digital Wireframes & Mockups
-
-### [BONUS] Interactive Prototype
+### Sprint 1 GIFs
+- User can sign up using GitHub and using email/password. SignIn, SignUp, and Login Screens have been built out. Still having troubling with the Github third-party authentication working consistently.
+<div>
+    <a href="https://www.loom.com/share/03a4852bd0a54365aeec532b84cd3ea3">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/03a4852bd0a54365aeec532b84cd3ea3-with-play.gif">
+    </a>
+  </div>
 
 ## Schema 
 

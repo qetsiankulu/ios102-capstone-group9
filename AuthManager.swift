@@ -14,8 +14,6 @@ class AuthManager {
     
     // A property to store the logged in user.  User is an object provided by FirebaseAuth framework
     var user: User?
-    
-    // an instance of OAuthProvider initialized with "github.com"
     var provider = OAuthProvider(providerID: "github.com")
     
     
@@ -46,18 +44,13 @@ class AuthManager {
     func signOut() {
         do {
             try Auth.auth().signOut()
-            
             user = nil  // Set user to nil after sign out
-            
-            print ("The user has been signed out")
-            
-            
         } catch {
             print(error)
         }
     }
     
-    // signs the user in by asking for Github credentials
+    // signs the user in with Github credential
     func signInWithGithub() {
            provider.getCredentialWith(nil) { credential, error in
                if let error = error {
@@ -75,13 +68,14 @@ class AuthManager {
                        if let user = authResult?.user {
                            self.user = user
                            
-                           
+                           print("User successfully created in Firebase")
                        }
                    }
                }
            }
+        
+        
        }
-    
     
 }
 
