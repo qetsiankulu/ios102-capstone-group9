@@ -14,10 +14,17 @@ struct SignInScreen: View {
     
     
     var body: some View {
+        Text("OnTheSpot")
+            .font(.largeTitle)
+            .bold()
         
         NavigationStack {
             VStack(spacing: 5) {
+                FeatureCarousel()
+                    .padding(.bottom, 70)
+                
                 EmailButton()
+                
                 GithubButton(action: authManager.signInWithGithub)
             }
             .padding()
@@ -33,6 +40,8 @@ struct SignInScreen: View {
                 }
             }
             .font(.system(size: 14))
+            
+            Spacer()
         }
         // Present the LoginScreen modally when showingLoginScreen is true
         .sheet(isPresented: $showingLoginScreen) {
