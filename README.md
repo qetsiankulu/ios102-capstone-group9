@@ -34,9 +34,9 @@ OnTheSpot is an app for lifelong learners who want to join communities of likemi
 **Required Must-have Stories**
 - [x] User can sign up using GitHub
 - [x] User can sign up using email/password
-- [ ] User can login using GitHub
+- [x] User can login using GitHub
 - [x] User can login using email/password
-- [ ] User can sign out 
+- [x] User can sign out 
       
 - [ ] users have option to subscribe/ unsubscribe to different rooms
 - [ ] users can only see rooms they are subscribed to in their feed
