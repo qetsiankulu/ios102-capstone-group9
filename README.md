@@ -57,7 +57,6 @@ OnTheSpot is an app for lifelong learners who want to join communities of likemi
 * [Required User Feature: User can type in their email]
 * [Required User Feature: User can type in their password]
 * [Required User Feature: User can click a button that redirects them to the Login screen]
-* [Required User Feature: User can click a 'X' that redirects them to the Home Screen]
 * [Required User Feature: User can click a 'Continue' button that takes them to the Home Feed Screen]
 
 
@@ -66,7 +65,6 @@ OnTheSpot is an app for lifelong learners who want to join communities of likemi
 * [Required User Feature: User can type in their password]
 * [Required User Feature: User can click a button that signs them up through their Github account]
 * [Required User Feature: User can click a button that redirects them to the Signup screen]
-* [Required User Feature: User can click a 'X' that redirects them to the Home Screen]
 * [Required User Feature: User can click a 'Continue' button that takes them to the Home Feed Screen]
 
 [**Custom Room Screen**] - Sai Mannava 
