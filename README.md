@@ -44,6 +44,7 @@ OnTheSpot is an app for lifelong learners who want to join communities of likemi
 
 
 **Optional Nice-to-have Stories**
+- [x] User can view a carousel of app features in the app landing page 
 
 
 ### 2. Screen Archetypes
@@ -144,7 +145,15 @@ OnTheSpot is an app for lifelong learners who want to join communities of likemi
 - UI room feed layout [Darian]
 <img style="max-width:300px;" src="Screenshot 2024-04-19 at 7.35.05 PM.png">
 
-## Schema 
+
+### Sprint 2 GIFs
+- Onboarding screens and logic has been completed.
+<div>
+    <a href="https://www.loom.com/share/57ddcd9e1ba84068a40b9d556d2941bd">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/57ddcd9e1ba84068a40b9d556d2941bd-with-play.gif">
+    </a>
+</div>
+
 
 
 ### Models
