@@ -34,18 +34,16 @@ OnTheSpot is an app for lifelong learners who want to join communities of likemi
 **Required Must-have Stories**
 - [x] User can sign up using GitHub
 - [x] User can sign up using email/password
-- [ ] User can login using GitHub
+- [x] User can login using GitHub
 - [x] User can login using email/password
-- [ ] User can sign out 
+- [x] User can sign out 
       
-- [ ] User can view the different channels on the main feed after sign up or login
-- [ ] option to create groups
-- [ ] options for leader of group to set questions for the week
-- [ ] options for participants in groups to anwser question of day ( they get 2 minutes to anwser once they open the app and only after they anwser can they see the feed of other responses for that room)
-- [ ] ability to give feedback (comment section) on responses
-
+- [ ] users have option to subscribe/ unsubscribe to different rooms
+- [ ] users can only see rooms they are subscribed to in their feed
+- [ ] feed shows fun facts/ trivia for that subject 
 
 **Optional Nice-to-have Stories**
+- [x] User can view a carousel of app features in the app landing page 
 
 
 ### 2. Screen Archetypes
@@ -58,7 +56,6 @@ OnTheSpot is an app for lifelong learners who want to join communities of likemi
 * [Required User Feature: User can type in their email]
 * [Required User Feature: User can type in their password]
 * [Required User Feature: User can click a button that redirects them to the Login screen]
-* [Required User Feature: User can click a 'X' that redirects them to the Home Screen]
 * [Required User Feature: User can click a 'Continue' button that takes them to the Home Feed Screen]
 
 
@@ -67,7 +64,6 @@ OnTheSpot is an app for lifelong learners who want to join communities of likemi
 * [Required User Feature: User can type in their password]
 * [Required User Feature: User can click a button that signs them up through their Github account]
 * [Required User Feature: User can click a button that redirects them to the Signup screen]
-* [Required User Feature: User can click a 'X' that redirects them to the Home Screen]
 * [Required User Feature: User can click a 'Continue' button that takes them to the Home Feed Screen]
 
 [**Custom Room Screen**] - Sai Mannava 
@@ -75,6 +71,15 @@ OnTheSpot is an app for lifelong learners who want to join communities of likemi
 * [Required User Feature: Having a custom tailored questions for each room]
 * [Optional User Feature: User can interact with other people in the screen]
 * [Optional User Feature: The Room and the UI should be connected]
+
+[**Add subscription  Screen**] - Darian Lee 
+* [Required User Feature: user can see all possible rooms and search for a room]
+* [Required User Feature: rooms that they are subscribed to are selected]
+* [Required User Feature: user can unselect and select rooms to change subscription]
+
+[**main feed  Screen**] - Darian Lee 
+* [Required User Feature: user can see the rooms they are subscribed to]
+* [Required User Feature: clicking a room leads to "custom room screen]
 
 
 ### 3. Navigation
@@ -133,8 +138,19 @@ OnTheSpot is an app for lifelong learners who want to join communities of likemi
       <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/03a4852bd0a54365aeec532b84cd3ea3-with-play.gif">
     </a>
   </div>
+- UI room feed layout [Darian]
+<img style="max-width:300px;" src="Screenshot 2024-04-19 at 7.35.05 PM.png">
 
-## Schema 
+
+### Sprint 2 GIFs
+- Onboarding screens and logic has been completed.
+<div>
+    <a href="https://www.loom.com/share/57ddcd9e1ba84068a40b9d556d2941bd">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/57ddcd9e1ba84068a40b9d556d2941bd-with-play.gif">
+    </a>
+</div>
+
+
 
 
 ### Models
@@ -146,6 +162,7 @@ OnTheSpot is an app for lifelong learners who want to join communities of likemi
 | password | String | user's password for login authentication      |
 | ...      | ...    | ...                          
 
+in progress 
 
 ### Networking
 
