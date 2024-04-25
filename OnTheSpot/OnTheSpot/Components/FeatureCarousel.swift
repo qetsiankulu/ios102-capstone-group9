@@ -9,7 +9,7 @@ import SwiftUI
 
 struct FeatureCarousel: View {
     var body: some View {
-        AutoScroller(imageNames: ["github-logo", "different-rooms", "new-topics"], imageCaptions: ["Third-party authentication with Github", "Explore different rooms onTheSpot", "Discover fun new topics onTheSpot"])
+        AutoScroller(imageNames: ["github-logo", "different-rooms", "new-topics"], imageCaptions: ["Third-party authentication with Github", "Explore different rooms OnTheSpot", "Discover fun new topics OnTheSpot"])
     }
 }
 
