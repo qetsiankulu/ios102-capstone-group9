@@ -48,13 +48,14 @@ OnTheSpot is an app for lifelong learners who want to join communities of likemi
 - [x] User can login using email/password
 - [x] User can sign out 
       
-- [ ] users have option to subscribe/ unsubscribe to different rooms
-- [ ] users can only see rooms they are subscribed to in their feed
-- [ ] feed shows fun facts/ trivia for that subject 
+- [x] users have option to subscribe/ unsubscribe to different rooms
+- [x] users can only see rooms they are subscribed to in their feed
+- [x] feed shows fun facts/ trivia for that subject 
 
 
 **Optional Nice-to-have Stories**
-- [x] User can view a carousel of app features in the app landing page 
+- [x] User can view a carousel of app features in the app landing page
+- [x] User can interact with trivia questions and test themselves 
 
 
 ### 2. Screen Archetypes
@@ -77,7 +78,7 @@ OnTheSpot is an app for lifelong learners who want to join communities of likemi
 * [Required User Feature: User can click a button that redirects them to the Signup screen]
 * [Required User Feature: User can click a 'Continue' button that takes them to the Home Feed Screen]
 
-[**Custom Room Screen**] - Sai Mannava 
+[**Custom Room Screen**] - Darian Lee
 * [Required User Feature: Based on the room the user clicks, call an API to display feed]
 * [Required User Feature: Having a custom tailored questions for each room]
 * [Optional User Feature: User can interact with other people in the screen]
@@ -162,7 +163,9 @@ OnTheSpot is an app for lifelong learners who want to join communities of likemi
     </a>
 </div>
 
-
+### Sprint 3 GIFS
+- sorry I didn't make a gif earlier, but I implemented the subscribing to rooms functionality and the trivia feed functionality, which you can see if this video
+  [![Video Preview](https://img.youtube.com/vi/Qzdr9HC-u10/0.jpg)](https://www.youtube.com/watch?v=Qzdr9HC-u10)
 
 ### Models
 
