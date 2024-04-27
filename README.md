@@ -164,7 +164,8 @@ OnTheSpot is an app for lifelong learners who want to join communities of likemi
 </div>
 
 ### Sprint 3 GIFS
-- sorry I didn't make a gif earlier, but I implemented the subscribing to rooms functionality and the trivia feed functionality, which you can see if this video
+- sorry I didn't make a gif earlier, but I implemented the subscribing to rooms functionality and the trivia feed functionality, which you can see in this video:
+  
   [![Video Preview](https://img.youtube.com/vi/Qzdr9HC-u10/0.jpg)](https://www.youtube.com/watch?v=Qzdr9HC-u10)
 
 ### Models
