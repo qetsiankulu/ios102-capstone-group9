@@ -50,7 +50,9 @@ OnTheSpot is an app for lifelong learners who want to join communities of likemi
       
 - [x] users have option to subscribe/ unsubscribe to different rooms
 - [x] users can only see rooms they are subscribed to in their feed
-- [x] feed shows fun facts/ trivia for that subject 
+- [x] feed shows fun facts/ trivia for that subject
+- [x] user can see lifetime score update in real time
+- [x] lifetime score and room selection persists at each log in (stored in firebase)
 
 
 **Optional Nice-to-have Stories**
