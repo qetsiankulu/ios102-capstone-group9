@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "1A91CEE2-F8F4-4C82-8445-D8F27DB1D7DF"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "17DBB8BB-0FED-46D9-AC67-CAE749B89103"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OnTheSpot/Screens/SubscribeToRooms.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "148"
+            endingLineNumber = "148"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C490BA77-21B4-4DFB-BAD6-965D8E2F4F71"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OnTheSpot/Screens/SubscribeToRooms.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "147"
+            endingLineNumber = "147"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6BAB3028-5C06-4BDC-A186-47CC61BE7C2A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OnTheSpot/Screens/userRoomManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "UserRoomManager"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "6BAB3028-5C06-4BDC-A186-47CC61BE7C2A - 597158ef34725ce5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of OnTheSpot.UserRoomManager.rooms : Swift.Array&lt;OnTheSpot.Room&gt;"
+                  moduleName = "OnTheSpot"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/darianlee/Downloads/ios102-capstone-group9-Onboarding/OnTheSpot/OnTheSpot/Screens/userRoomManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "6BAB3028-5C06-4BDC-A186-47CC61BE7C2A - 5a3bbb43650a1dd0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OnTheSpot.UserRoomManager.rooms.getter : Swift.Array&lt;OnTheSpot.Room&gt;"
+                  moduleName = "OnTheSpot"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/darianlee/Downloads/ios102-capstone-group9-Onboarding/OnTheSpot/OnTheSpot/Screens/userRoomManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "6BAB3028-5C06-4BDC-A186-47CC61BE7C2A - c5b2d25c34a6def"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OnTheSpot.UserRoomManager.rooms.setter : Swift.Array&lt;OnTheSpot.Room&gt;"
+                  moduleName = "OnTheSpot"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/darianlee/Downloads/ios102-capstone-group9-Onboarding/OnTheSpot/OnTheSpot/Screens/userRoomManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "6BAB3028-5C06-4BDC-A186-47CC61BE7C2A - c73eee904d563fec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OnTheSpot.UserRoomManager.rooms.modify : Swift.Array&lt;OnTheSpot.Room&gt;"
+                  moduleName = "OnTheSpot"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/darianlee/Downloads/ios102-capstone-group9-Onboarding/OnTheSpot/OnTheSpot/Screens/userRoomManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "6BAB3028-5C06-4BDC-A186-47CC61BE7C2A - 9887b2739602c34"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OnTheSpot.UserRoomManager.rooms.modify : Swift.Array&lt;OnTheSpot.Room&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "OnTheSpot"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/darianlee/Downloads/ios102-capstone-group9-Onboarding/OnTheSpot/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "6BAB3028-5C06-4BDC-A186-47CC61BE7C2A - ada3fb29c17895da"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OnTheSpot.UserRoomManager.$rooms.getter : Combine.Published&lt;Swift.Array&lt;OnTheSpot.Room&gt;&gt;.Publisher"
+                  moduleName = "OnTheSpot"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/darianlee/Downloads/ios102-capstone-group9-Onboarding/OnTheSpot/OnTheSpot/Screens/userRoomManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "6BAB3028-5C06-4BDC-A186-47CC61BE7C2A - 9e685e5664542e8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OnTheSpot.UserRoomManager.$rooms.setter : Combine.Published&lt;Swift.Array&lt;OnTheSpot.Room&gt;&gt;.Publisher"
+                  moduleName = "OnTheSpot"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/darianlee/Downloads/ios102-capstone-group9-Onboarding/OnTheSpot/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "6BAB3028-5C06-4BDC-A186-47CC61BE7C2A - 26751a9b009fa715"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OnTheSpot.UserRoomManager.$rooms.modify : Combine.Published&lt;Swift.Array&lt;OnTheSpot.Room&gt;&gt;.Publisher"
+                  moduleName = "OnTheSpot"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/darianlee/Downloads/ios102-capstone-group9-Onboarding/OnTheSpot/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "6BAB3028-5C06-4BDC-A186-47CC61BE7C2A - 461412cc160841d5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OnTheSpot.UserRoomManager.$rooms.modify : Combine.Published&lt;Swift.Array&lt;OnTheSpot.Room&gt;&gt;.Publisher with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "OnTheSpot"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/darianlee/Downloads/ios102-capstone-group9-Onboarding/OnTheSpot/%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "24">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9719D0AA-493A-4EF0-9A53-8A942D53188C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OnTheSpot/Screens/userRoomManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "getRooms()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "81637F4B-8476-4F34-AD81-DD254398CF86"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OnTheSpot/OnTheSpotApp.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

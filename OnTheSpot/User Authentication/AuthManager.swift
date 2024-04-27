@@ -1,0 +1,89 @@
+//
+//  AuthManager.swift
+//  OnTheSpot
+//
+//  Created by Qetsia Nkulu  on 4/17/24.
+//
+
+import Foundation
+import FirebaseAuth
+import AuthenticationServices
+
+@Observable                 // <-- changes in the authentication status of your user to be instantly observable to any view
+class AuthManager: ObservableObject {
+    
+    // A property to store the logged in user.  User is an object provided by FirebaseAuth framework
+    var user: User?
+    var usersRooms: [Room] = []
+    var provider = OAuthProvider(providerID: "github.com")
+    
+    
+    // https://firebase.google.com/docs/auth/ios/start#sign_up_new_users
+    func signUp(email: String, password: String) {
+        Task {
+            do {
+                let authResult = try await Auth.auth().createUser(withEmail: email, password: password)
+                user = authResult.user    // <-- Set the user
+                UserRoomManager().initializeNewUser()
+            } catch {
+                print (error)
+            }
+        }
+    }
+    
+    
+    func signIn(email: String, password: String) {
+        Task {
+            do {
+                let authResult = try await Auth.auth().signIn(withEmail: email, password: password)
+                user = authResult.user  // <-- Set the user
+                print("printing authResult.user")
+                print(authResult.user)
+            } catch {
+                print(error)
+            }
+        }
+    }
+    
+    func signOut() {
+        do {
+            try Auth.auth().signOut()
+            user = nil  // Set user to nil after sign out
+            
+            print ("The user has been signed out")
+            
+            
+        } catch {
+            print(error)
+        }
+    }
+    
+    // signs the user in with Github credential
+    func signInWithGithub() {
+           provider.getCredentialWith(nil) { credential, error in
+               if let error = error {
+                   print("Error getting GitHub credential: \(error)")
+                   return
+               }
+               
+               if let credential = credential {
+                   Auth.auth().signIn(with: credential) { authResult, error in
+                       if let error = error {
+                           print("Error signing in with GitHub credential: \(error)")
+                           return
+                       }
+                       
+                       if let user = authResult?.user {
+                           self.user = user
+                           UserRoomManager().initializeNewUser()
+                           
+                       }
+                   }
+               }
+           }
+        
+        
+       }
+    
+}
+
