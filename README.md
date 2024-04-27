@@ -24,7 +24,6 @@ note: the video was too long for a gif
 
 ### Description
 
-[Provide a brief description of your app, its purpose, and functionality.]
 OnTheSpot is an app for lifelong learners who want to join communities of likeminded people looking to challege themselves and improve their skills in a space where making mistakes is normalized. The main premise of the app is that each day, once you click on the room for a certian subject you are in, you will have 2 minutes to solve a problem and post your solution publically. Only once you have solved it can you see other's responses and give feedback. There will also be the option to join and create different rooms and room creators will have the option to set questions. 
 
 ### App Evaluation
