@@ -16,7 +16,7 @@ Original App Design Project - Group 9
 
 note: the video was too long for a gif 
 
-[![Video Preview](https://img.youtube.com/vi/Qzdr9HC-u10/0.jpg)](https://www.youtube.com/watch?v=Qzdr9HC-u10)
+[![Video Preview](https://img.youtube.com/vi/VJXVI72rh44/0.jpg)](https://www.youtube.com/watch?v=VJXVI72rh44)
 
 
 ## Overview
