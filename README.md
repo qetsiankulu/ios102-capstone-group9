@@ -53,7 +53,6 @@ OnTheSpot is an app for lifelong learners who want to join communities of likemi
 - [x] user can see lifetime score update in real time
 - [x] lifetime score and room selection persists at each log in (stored in firebase)
 
-
 **Optional Nice-to-have Stories**
 - [x] User can view a carousel of app features in the app landing page
 - [x] User can interact with trivia questions and test themselves 
@@ -84,7 +83,6 @@ OnTheSpot is an app for lifelong learners who want to join communities of likemi
 * [Required User Feature: Having a custom tailored questions for each room]
 * [Optional User Feature: User can interact with other people in the screen]
 * [Optional User Feature: The Room and the UI should be connected]
-
 
 [**Add subscription  Screen**] - Darian Lee 
 * [Required User Feature: user can see all possible rooms and search for a room]
@@ -168,6 +166,7 @@ OnTheSpot is an app for lifelong learners who want to join communities of likemi
 - sorry I didn't make a gif earlier, but I implemented the subscribing to rooms functionality and the trivia feed functionality, which you can see in this video:
   
   [![Video Preview](https://img.youtube.com/vi/Qzdr9HC-u10/0.jpg)](https://www.youtube.com/watch?v=Qzdr9HC-u10)
+
 
 ### Models
 
